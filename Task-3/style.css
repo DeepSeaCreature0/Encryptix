@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3b3f48;
+}
+
+.calculator{
+    width: 370px;
+    background: #3b3f48;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #17181c,
+                -3px -3px 3px #676e7e;
+}
+
+.result{
+    font-size: 3.4em;
+    text-align: right;
+    padding: 1.5rem 1rem 1rem 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border: none;
+    display: block;
+    outline: none;
+    background: transparent;
+    color: white;
+    box-shadow: inset 3px 3px 3px #17181c,
+                inset -3px -3px 3px #676e7e;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3px;
+}
+
+.key{
+    background: #3b3f48;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    width: 70px;
+    height: 70px;
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #17181c,
+                -3px -3px 3px #676e7e;
+}
+
+.key:active,
+.key:focus{
+    box-shadow: inset 3px 3px 3px #17181c,
+                inset -3px -3px 3px #676e7e;
+}
+
+.key_op{
+    color: cyan;
+}
+
+.key_solve{
+    grid-column: 4/ span 1;
+    grid-row: 2/span 4;
+    height: auto;
+    color: cyan;
+}
