@@ -1,38 +1,38 @@
-Node js dependencies
-# bcrypt
+# Node js dependencies
+### bcrypt
 - hasing password
 
-# cloudinary
+### cloudinary
 - for uploading /modifying resume
 
-# cookie-parser
+### cookie-parser
 - cookie for user authorisation
 
-# cors
+### cors
 - to connect frontend and backend
 
-# dotenv
+### dotenv
 - environment variables
 
-# express
+### express
 - node framework
 
-# express-fileupload
+### express-fileupload
 - help in uploading file to cloudinary
 
-# jsonwebtoken
+### jsonwebtoken
 - for authentication and authorization purposes
 
-# mongoose
+### mongoose
 - mogodb database
 
-# validator
+### validator
 - for validation
 
 
-React Dependencies
+# React Dependencies
 
-# react-router-dom
-# axios
-# react-icons
-# react-hot-toast
+- react-router-dom
+- axios
+- react-icons
+- react-hot-toast
