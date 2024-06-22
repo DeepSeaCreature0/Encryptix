@@ -235,6 +235,43 @@ min-height: 100vh; /* Ensure it covers the full height of the viewport */
 padding-bottom: 5rem; /* Add padding to the bottom */
 }
 
+.jobs-page type{
+  width: 10%;
+}
+
+.dropdown-menu-dark {
+  background-color: #343a40;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(156, 156, 156, 0.2), 0 6px 20px 0 rgba(168, 168, 168, 0.19);
+}
+
+.dropdown-item{
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #495057; /* Slightly lighter background on hover */
+  color: #fff;
+}
+
+.btn-outline-secondary-dark {
+  border-width: 3px;
+  border-right-width: 0px;
+  width: 100px;
+  border-color: #6c757d;
+  color: #fff;
+  background-color: #343a40;
+}
+
+.btn-outline-secondary-dark:hover {
+  background-color: #495057;
+  color: #fff;
+  border-color: #495057;
+}
+
+
 .card-custom {
 text-align: center;
 padding: 2rem; /* Reduced padding */

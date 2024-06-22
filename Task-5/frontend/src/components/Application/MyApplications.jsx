@@ -99,7 +99,7 @@ const JobSeekerCard = ({ element, deleteApp, openModal }) => {
         <div className="col-md-4 text-center">
           <img src={element.resume.url} alt="resume" className="img-fluid resume-img" onClick={() => openModal(element.resume.url)} />
         </div>
-        <div className="col-md-4 text-center d-flex align-items-center justify-content-center">
+        <div className="col-md-4 mt-2 text-center d-flex align-items-center justify-content-center">
           <button className="btn btn-danger" onClick={() => deleteApp(element._id)}><MdDelete size={24} /> Delete Application</button>
         </div>
       </div>

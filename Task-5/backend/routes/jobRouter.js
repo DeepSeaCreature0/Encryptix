@@ -11,4 +11,4 @@ router.post("/postJob",isAuthorized,postJob);
 router.put("/updateJob/:id",isAuthorized,updateJob);
 router.delete("/deleteJob/:id",isAuthorized,deleteJob);
 
-export default router;;
+export default router;

@@ -9,4 +9,4 @@ router.get("/employerGetAllApps",isAuthorized,employerGetAllApps);
 router.get("/jobSeekerGetAllApps",isAuthorized,jobSeekerGetAllApps);
 router.delete("/jobSeekerDeleteApp/:id",isAuthorized,jobSeekerDeleteApp);
 
-export default router;;
+export default router;
