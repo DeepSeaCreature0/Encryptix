@@ -3,7 +3,7 @@ import { FaRegWindowClose } from "react-icons/fa";
 
 const ResumeModal = ({ imageURL, onClose }) => {
   return (
-    <div className="resume-modal modal show d-block" tabindex="-1">
+    <div className="resume-modal modal show d-block" tabIndex="-1">
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="modal-header">

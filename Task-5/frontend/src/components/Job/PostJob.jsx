@@ -62,7 +62,7 @@ const PostJob = () => {
 
   return (
     <div className="job-post mt-3 ">
-      <div className="container w-50">
+      <div className="container w-75">
         <h3 className="text-center text-white mt-4 mb-3">POST NEW JOB</h3>
         <form onSubmit={handleJobPost}>
           <div className="mb-4">
