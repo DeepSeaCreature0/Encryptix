@@ -14,6 +14,7 @@ const Navbar = () => {
     try {
       const response = await axios.get("http://localhost:5000/api/v1/user/logout", { withCredentials: true });
       toast.success(response.data.message);
+      setShow(false);
       setAuthorized(false);
       navigateTo("/login");
     } catch (error) {
@@ -21,7 +22,7 @@ const Navbar = () => {
       setAuthorized(true);
     }
   };
-
+  
   return (
     <nav className={`navbar navbar-expand-lg ${isAuthorized ? "navbarshow" : "navbarHide"}`}>
       <div className="container">
