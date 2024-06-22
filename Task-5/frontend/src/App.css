@@ -1,0 +1,429 @@
+.page_not_found {
+padding: 30px 0;
+background-color: #FFFFFF;
+}
+
+.page_not_found img {
+max-width: 50%;
+height: auto;
+}
+
+.page_not_found .btn {
+margin-top: 20px;
+}
+  
+
+.navbarshow {
+display: block;
+}
+
+.navbarHide {
+display: none;
+}
+
+.logo {
+max-width: 100px;
+}
+
+.navbar-toggler {
+border: none;
+}
+
+.navbar-toggler:focus {
+outline: none;
+}
+
+.navbar-nav .nav-link {
+margin-right: 1rem;
+transition: color .25s ease-in;
+color: #212529;
+}
+
+
+.navbar-nav .nav-link:hover{
+    color: #6C757D;
+}
+.navbar-nav .logout:hover{
+    color: crimson;
+}
+
+
+.footerShow {
+display: block;
+}
+
+.footerHide {
+display: none;
+}
+
+footer .text-white {
+color: #ffffff !important;
+}
+
+footer .text-white:hover {
+color: #d3d3d3 !important; /* Light gray on hover */
+}
+
+footer .me-3 {
+margin-right: 1rem; /* Ensure proper spacing between icons */
+}
+
+.authPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.auth-container {
+  max-width: 500px;
+  width: 100%;
+}
+
+.authPage .banner {
+  text-align: center;
+}
+
+.authPage .banner img {
+  max-width: 85%;
+  height: auto;
+}
+
+.authPage {
+max-height: 100vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: white;
+}
+
+.auth-container {
+max-width: 450px;
+padding: 20px;
+background: white;
+border-radius: 10px;
+margin-left: 5%;
+}
+
+.header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.header img {
+width: 100px;
+margin-bottom: 10px;
+}
+
+.header h3 {
+margin: 0;
+font-size: 1.5rem;
+color: #333;
+}
+
+.inputTag {
+margin-bottom: 15px;
+}
+
+.inputTag label {
+display: block;
+margin-bottom: 5px;
+color: #555;
+font-weight: bold;
+font-size: small;
+}
+
+.input-group {
+display: flex;
+align-items: center;
+}
+
+.input-group input,
+.input-group select {
+background-color: #F0F0F0;
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: small;
+margin-right: -1px; /* To cover the border between input and icon */
+box-shadow: none !important; /* Remove shadow effect */
+transition: background-color .25s ease-in;
+}
+
+.input-group-text {
+background-color: #4c41c6;
+color: white;
+padding: 12px;
+
+border: 1px solid #4c41c6;
+border-radius: 0 5px 5px 0;
+/* font-size: small; */
+}
+
+button[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #4c41c6;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.25s ease-in;
+}
+
+button[type="submit"]:hover {
+background-color: #0e084d;
+}
+
+.mt-3 {
+margin-top: 1rem;
+}
+
+.text-center a {
+display: inline-block;
+margin-top: 10px;
+color: #4c41c6;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.25s ease-in;
+}
+
+.text-center a:hover {
+color: #0e084d;
+}
+
+.banner {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner img {
+max-width: 100%;
+height: auto;
+}
+
+
+.custom-btn {
+background-color: #343a40; /* Same as the Hero section background */
+border-color: #343a40;     /* Match the border color */
+color: #fff;               /* Text color */
+}
+
+.custom-btn:hover,
+.custom-btn:focus,
+.custom-btn:active {
+background-color: #343a40 !important; 
+border-color: #343a40 !important;
+color: #fff !important;
+cursor: default;
+}
+
+
+/* Jobs.css */
+
+.jobs-page {
+background-color: #343a40; /* Dark background for the entire section */
+color: white;
+min-height: 100vh; /* Ensure it covers the full height of the viewport */
+padding-bottom: 5rem; /* Add padding to the bottom */
+}
+
+.card-custom {
+text-align: center;
+padding: 2rem; /* Reduced padding */
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+transition: transform 0.3s, box-shadow 0.3s;
+cursor: default;
+}
+
+.card-custom .card-title {
+font-weight: bold;
+margin-top: 1rem; /* Reduced margin */
+}
+
+.card-custom .card-subtitle,
+.card-custom .card-text {
+margin-bottom: 0.5rem; /* Reduced margin */
+color: #adb5bd; /* Light text color */
+}
+
+.card-custom .btn-primary {
+background-color: #212529; /* Primary button color */
+color: white;
+border: none;
+}
+
+.card-custom .btn-primary:hover {
+background-color: #212529; /* Darker blue on hover */
+color: #adb5bd;
+}
+
+.card-custom:hover {
+transform: scale(1.05); /* Slightly increase the size on hover */
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger box shadow on hover */
+}
+  
+  
+body, html {
+margin: 0;
+padding: 0;
+background-color: #343a40; /* Ensure the entire background is dark */
+}
+
+/* Navbar specific styles to keep it white */
+.navbar {
+    background-image: linear-gradient(white, #aeaeae);
+    color: black;
+}
+.my-job{
+  min-height: 70vh;
+}
+
+.job-details {
+background-color: #343a40; /* Dark background color */
+padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+.job-details .container {
+margin-top: 5rem; /* Additional space to push content below the navbar */
+}
+
+.job-details .card {
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+border: none; /* Remove default card border */
+border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.job-details .card-body {
+padding: 2rem; /* Add padding to card body */
+}
+
+.job-details h3 {
+font-size: 2rem; /* Adjust heading size */
+margin-bottom: 1.5rem; /* Add bottom margin */
+}
+
+.job-details .btn{
+background-color: #343A40;
+color: white;
+border: solid 1px #343A40;
+transition: 0.25s ease-in;
+}
+
+.job-details .btn:hover{
+background-color: #5e646a;
+}
+
+
+
+.job-post{
+min-height: 90vh;
+}
+
+.job-post input{
+background-color: #f0f0f0;
+}
+.job-post select{
+background-color: #f0f0f0;
+}
+.job-post textarea{
+background-color: #f0f0f0;
+
+}
+
+.job-post .btn{
+background-color: #212529;
+color: white;
+border: solid 1px #212529;
+transition: 0.25s ease-in;
+}
+
+.job-post .btn:hover{
+background-color: #5e646a;
+color: black;
+}
+
+.application input{
+background-color: #f0f0f0;
+
+}
+.application textarea{
+background-color: #f0f0f0;
+}
+
+.application .btn{
+background-color: #212529;
+color: white;
+border: solid 1px #212529;
+transition: 0.25s ease-in;
+}
+
+.application .btn:hover{
+background-color: #5e646a;
+color: black;
+}
+
+.resume-modal {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1050; /* Bootstrap modal z-index */
+}
+
+.modal-header {
+display: flex;
+justify-content: flex-end;
+padding: 1rem;
+}
+
+.modal-body {
+padding: 0;
+}
+  
+.application-page {
+padding: 20px;
+min-height: 80vh;
+}
+
+.text-white {
+color: white;
+}
+
+.card {
+background-color: #f8f9fa;
+border: none;
+}
+
+.resume-img {
+cursor: pointer;
+max-height: 200px;
+}
+
+.btn-danger {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+}
+  
+  
